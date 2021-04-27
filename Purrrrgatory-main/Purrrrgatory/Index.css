@@ -1,0 +1,48 @@
+body {
+            background-image: url('homebg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        .h1 {
+            font-family: "Lucida Handwriting";
+            text-align: Center;
+            font-size: 30px;
+            text-decoration: underline;
+            text-decoration-color: mediumseagreen;
+            background-color: papayawhip;
+            padding-top:0px;
+            margin-top:0px;
+            margin-left:150px;
+            margin-right:150px;
+            
+        }
+
+        .btn-group button {
+         
+            font-family: "Lucida Handwriting";
+            background-color: black;
+          
+            color: palevioletred;
+            padding:10px 24px;
+            font-size: 20px;
+            cursor: pointer;
+            float: bottom;
+            margin-bottom: 40px;
+            text-decoration: none;
+            
+            display: flex;
+            text-decoration: underline solid black;
+
+            
+           
+
+        }
+
+        .btn-group button:hover {
+            background-image:url("button.jpg");
+            background-size: cover;
+            color: violet;
+
+        }

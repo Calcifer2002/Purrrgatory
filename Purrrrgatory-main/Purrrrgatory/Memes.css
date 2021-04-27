@@ -1,0 +1,94 @@
+
+      
+       body{
+         background-color:gainsboro;
+       }
+       .slideshow-container {
+      
+       width:75%;
+       position:relative;
+       margin: auto;
+       margin-top:100px;
+       height:100%;
+   }
+   h1 {
+         font-family: Lucida Handwriting;
+         font-size: 55px;
+         text-align: center;
+        margin:auto;
+        
+         border: solid gray;
+         background-color:yellow;
+         border-style: outset;
+         color: black;
+         margin-top:20px;
+         width:50%;
+
+   
+       }
+   
+   .mySlides {
+    
+       display: none;
+     height: 100%;
+     background-color:red;
+     width:100%;
+     padding:3px;
+     margin-top:-50px;
+     border: 3px solid white;
+     box-shadow:0 0 4px 4px gray;
+   }
+   
+   .prev,
+   .next {
+       cursor: pointer;
+       position: absolute;
+       top: 50%;
+       width: auto;
+       margin-top: -22px;
+       padding: 16px;
+       color: cornflowerblue;
+       transition: .6s ease;
+       font-weight: bold;
+       font-size: 30px;
+       border-radius: 0 3px 3px 0
+   }
+   
+   .next {
+       right: -65.5px;
+       border-radius: 3px 3px 3px 3px
+   }
+   
+   .prev {
+       left: -50px;
+       border-radius: 3px 3px 3px 3px
+   }
+   
+   .prev:hover,
+   .next:hover {
+       color: wheat;
+       background-color: red
+   }
+   
+   
+   
+   
+   .dot {
+       cursor: pointer;
+       height: 15px;
+       width: 15px;
+       margin: 0 2px;
+       background-color:white;
+       display: inline-block;
+       transition: background-color .6s ease;
+   }
+   .dot:hover{
+     background-color: grey;
+   }
+   
+   
+   .dot.active{
+     background-color: red;
+   }
+     
+    

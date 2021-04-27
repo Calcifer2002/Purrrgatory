@@ -1,0 +1,90 @@
+body{
+    background-color:whitesmoke;
+  }
+  .slideshow-container {
+  
+  width:75%;
+  position:relative;
+  margin: auto;
+  margin-top:100px;
+  height:100%;
+}
+h1 {
+    font-family: Lucida Handwriting;
+    font-size:55px;
+    
+    text-align: center;
+    border-collapse: separate;
+    border: solid grey;
+    border-style: outset;
+    background-color:thistle;
+    margin-top:30px;
+   
+
+    margin-left:150px;
+    margin-right:150px;
+
+  }
+
+.mySlides {
+margin-top:-40px;
+  display: none;
+background-color:gray;
+width:100%;
+height:100%;
+padding:3px;
+border: 3px solid black;
+box-shadow:0 0 4px 4px yellow;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  transition: .6s ease;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0
+}
+
+.next {
+  right: -65.5px;
+  border-radius: 3px 3px 3px 3px
+}
+
+.prev {
+  left: -50px;
+  border-radius: 3px 3px 3px 3px
+}
+
+.prev:hover,
+.next:hover {
+  color: orange;
+  background-color: rgba(0, 0, 0, 0.8)
+}
+
+
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:yellow;
+  display: inline-block;
+  transition: background-color .6s ease;
+}
+.dot:hover{
+background-color: orange;
+}
+
+
+.dot.active{
+background-color: orangered;
+}
