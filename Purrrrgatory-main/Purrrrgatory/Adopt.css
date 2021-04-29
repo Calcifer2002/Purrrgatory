@@ -1,6 +1,4 @@
-
-   
-    body {
+ body {
       background-color: pink;
     }
    
@@ -27,6 +25,8 @@
       text-align: center;
       margin-left:250px;
       margin-right:250px;
+      
+     
       border-color: white;
       background-color: orange;
       border-style: outset;
@@ -40,12 +40,6 @@
       margin-right:840px;
     }
 
-    h6 {
-      margin-bottom: -10px;
-      font-size: 19px;
-      line-height: 0px;
-    }
-
     .box {
       position: static;
       box-sizing: border-box;
@@ -54,10 +48,22 @@
     .image {
       float: left;
       margin-right: 20px;
-      border: 4px solid black;      
+      border: 4px solid black;
       padding: 1px;
       vertical-align: top;
       line-height: 0;
       width:12.5%;
       height:10%;
     }
+
+    .h6 {
+
+      margin-bottom: -10px;
+      font-size: 19px;
+      line-height: 0px;
+
+    }
+
+  
+
+
