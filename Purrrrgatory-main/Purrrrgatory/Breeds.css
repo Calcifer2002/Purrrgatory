@@ -65,5 +65,5 @@
     }
 
     
-    th:not(:last-child), td:not(:last-child) { border-right: 3px solid brown; }  /* Table at the bottom */
+    th:not(:last-child), td:not(:last-child) { border-right: 3px solid brown; }  /* Table at the bottom (so that the brown border is only at the middle)*/
 
