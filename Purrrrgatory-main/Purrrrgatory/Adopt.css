@@ -42,7 +42,7 @@
 
     .h6 {
 
-      margin-bottom: -10px;    /*.h6 is used because there are many things coming under it and its to apply it to all of them.*/
+      margin-bottom: -10px;    /*.h6 is used instead of h6 because there are many things coming under it and its to apply it to all of them.*/
       font-size: 19px;
       line-height: 0px;
 
