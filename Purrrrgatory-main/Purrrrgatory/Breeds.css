@@ -39,6 +39,16 @@
       margin-right: 625px;
     }
 
+   .h6 {
+
+      margin-bottom: -10px;
+      font-size: 19px;
+      line-height: 0px;
+
+
+    }
+
+
     .box {
       position: static;
       box-sizing: border-box;
@@ -54,13 +64,6 @@
       line-height: 0;
     }
 
-    .h6 {
-
-      margin-bottom: -10px;
-      font-size: 19px;
-      line-height: 0px;
-
-
-    }
-    th:not(:last-child), td:not(:last-child) { border-right: 3px solid brown; }
+    
+    th:not(:last-child), td:not(:last-child) { border-right: 3px solid brown; }  /* Table at the bottom */
 
