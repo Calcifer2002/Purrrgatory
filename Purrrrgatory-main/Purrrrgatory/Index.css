@@ -42,7 +42,7 @@ body {
 
         .btn-group button:hover {
             background-image:url("button.jpg");
-            background-size: cover;
+            background-size: cover;             /* Background changes on hovering*/
             color: violet;
 
         }
