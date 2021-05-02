@@ -11,25 +11,25 @@
        margin-top:100px;
        height:100%;
    }
-   h1 {
-         font-family: Lucida Handwriting;
-         font-size: 55px;
-         text-align: center;
+       h1 {
+        font-family: Lucida Handwriting;
+        font-size: 55px;
+        text-align: center;
         margin:auto;
         
-         border: solid gray;
-         background-color:yellow;
-         border-style: outset;
-         color: black;
-         margin-top:20px;
-         width:50%;
+        border: solid gray;
+        background-color:yellow;
+        border-style: outset;
+        color: black;
+        margin-top:20px;
+        width:50%;
 
    
        }
    
    .mySlides {
     
-       display: none;
+     display: none;
      height: 100%;
      background-color:red;
      width:100%;
