@@ -14,7 +14,7 @@ var slideIndex = 1;
           
         
           slideshowContainer.addEventListener('mouseenter', pause)
-          slideshowContainer.addEventListener('mouseleave', resume) //to stop slider when mouse on slider.
+          slideshowContainer.addEventListener('mouseleave', resume) //to stop slider when hovered.
       })
       
      
